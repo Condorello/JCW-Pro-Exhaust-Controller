@@ -11,4 +11,4 @@ Using 3 t-tap junction connector I took:
 -12v (red cable) and GND (black cable) coming from the fuse box that power the control unit itself;
 - PWM signal (cable indicated by the arrow).
 
-![WhatsApp Image 2022-07-11 at 09 05 36](https://user-images.githubusercontent.com/4238515/178209986-4901fa46-0f84-4267-a323-52cf8c0ed4ab.jpeg)
+![WhatsApp Image 2022-07-11 at 09 04 50](https://user-images.githubusercontent.com/4238515/178210078-6264a7c3-3225-468e-9036-4caf16979ba5.jpeg)

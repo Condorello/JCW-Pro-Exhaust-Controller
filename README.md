@@ -37,3 +37,7 @@ Also a jumper between COM and -IN
 
 ![WhatsApp Image 2022-07-11 at 09 05 36](https://user-images.githubusercontent.com/4238515/178213240-877c2686-5c36-496c-8378-089070001878.jpeg)
 ![WhatsApp Image 2022-07-11 at 09 05 17](https://user-images.githubusercontent.com/4238515/178213295-de255535-7c7b-452f-89d9-8cab2f75eda8.jpeg)
+
+Different boards require modifications to the attached ESPHome sketch. I also attach .bin files ready to be flashed on my board.
+
+Further developments, as soon as I have time, consist of cosmetic changes to the relay control web page and later an app.

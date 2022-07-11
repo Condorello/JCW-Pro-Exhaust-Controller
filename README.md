@@ -12,3 +12,6 @@ Using 3 t-tap junction connector I took:
 - PWM signal (cable indicated by the arrow).
 
 ![WhatsApp Image 2022-07-11 at 09 04 50](https://user-images.githubusercontent.com/4238515/178210078-6264a7c3-3225-468e-9036-4caf16979ba5.jpeg)
+
+As a relay I chose an ESP8266 wifi board (about 7-8 euros) and I created a simple firmware based on ESPHome (https://esphome.io). This creates a wifi access point called JCW PRO with password 12345678 and integrates a webserver to control the relay at page http://192.168.4.1
+Being a simple wifi network and a web page, it is compatible with any device, iOS-Android-Windows etc. and future-proof.

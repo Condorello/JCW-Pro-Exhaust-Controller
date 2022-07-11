@@ -1,0 +1,41 @@
+esphome:
+  name: jcw-pro-exhaust
+
+esp8266:
+  board: esp01
+
+# Enable logging
+logger:
+  baud_rate: 0
+
+#ota:
+#  password: "aa693e6ff51042a6aae3e48833bf0d4a"
+
+wifi:
+  ap:
+    ssid: "JCW Pro"
+    password: "12345678"
+    ap_timeout: 1s
+
+# Disable Capitive portal not working with access point setup
+#captive_portal:
+
+web_server:
+  local: true
+  port: 80
+  ota: false
+
+uart:
+  baud_rate: 9600
+  tx_pin: GPIO1
+  rx_pin: GPIO3
+
+switch:
+  - platform: template
+    name: "Exhaust Valve"
+    id: "Relay1"
+    optimistic: true
+    turn_on_action:
+      - uart.write: [0xA0, 0x01, 0x01, 0xA2]
+    turn_off_action:
+      - uart.write: [0xA0, 0x01, 0x00, 0xA1]

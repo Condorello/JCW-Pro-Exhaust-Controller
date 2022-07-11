@@ -22,9 +22,18 @@ https://www.amazon.it/dp/B07DJ4X4MX/?coliid=I1RMNTGA2TS3SI&colid=16RC7Q1DO2FU7&p
 On the board it's write ESP8266 RELAY V3 - LC TECHNOLOGY
 Pay attention that these cards exist in both 5v and 12v versions, the one you need is 12v.
 
+
+
 Then the links:
 
 12v (red cable) from the fuse box ---> +IN of the board
+
 GND (black cable) from the fuse box ---> -IN of the board
+
 PWM (cable to be jumpered) ---> NO (for valve open by default) or NC (for closed by default)
+
 Also a jumper between COM and -IN
+
+
+![WhatsApp Image 2022-07-11 at 09 05 36](https://user-images.githubusercontent.com/4238515/178213240-877c2686-5c36-496c-8378-089070001878.jpeg)
+![WhatsApp Image 2022-07-11 at 09 05 17](https://user-images.githubusercontent.com/4238515/178213295-de255535-7c7b-452f-89d9-8cab2f75eda8.jpeg)

@@ -13,5 +13,11 @@ Using 3 t-tap junction connector I took:
 
 ![WhatsApp Image 2022-07-11 at 09 04 50](https://user-images.githubusercontent.com/4238515/178210078-6264a7c3-3225-468e-9036-4caf16979ba5.jpeg)
 
-As a relay I chose an ESP8266 wifi board (about 7-8 euros) and I created a simple firmware based on ESPHome (https://esphome.io). This creates a wifi access point called JCW PRO with password 12345678 and integrates a webserver to control the relay at page http://192.168.4.1
+As a relay I chose an ESP8266 wifi board (about 7-9 euros) and I created a simple firmware based on ESPHome (https://esphome.io). This creates a wifi access point called JCW PRO with password 12345678 and integrates a webserver to control the relay at page http://192.168.4.1
 Being a simple wifi network and a web page, it is compatible with any device, iOS-Android-Windows etc. and future-proof.
+
+La scheda che ho comprato è questa:
+https://www.amazon.it/dp/B07DJ4X4MX/?coliid=I1RMNTGA2TS3SI&colid=16RC7Q1DO2FU7&psc=1&ref_=lv_cv_lig_dp_it
+
+Sulla board riporta ESP8266 RELAY V3 - LC TECHNOLOGY
+Attenzione che queste schede esistono sia in versione 5v che 12v, quella che serve è 12v.

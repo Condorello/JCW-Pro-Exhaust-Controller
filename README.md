@@ -8,7 +8,7 @@ The exhaust valve is controlled by a 12v powered control unit located in the tru
 
 
 Using 3 t-tap junction connector I took:
--12v (red cable) and GND (black cable) coming from the fuse box that power the control unit itself;
+-12v (red cable coming from the fuse box) and GND (black cable going to the chassis from the control unit);
 - PWM signal (cable indicated by the arrow).
 
 ![WhatsApp Image 2022-07-11 at 09 04 50](https://user-images.githubusercontent.com/4238515/178210078-6264a7c3-3225-468e-9036-4caf16979ba5.jpeg)
@@ -28,7 +28,7 @@ Then the links:
 
 12v (red cable) from the fuse box ---> +IN of the board
 
-GND (black cable) from the fuse box ---> -IN of the board
+GND (black cable) from the spare black cable going to the chassis near the PWM control unit ---> -IN of the board
 
 PWM (cable to be jumpered) ---> NO (for valve open by default) or NC (for closed by default)
 
